@@ -5,6 +5,8 @@ This repository presents the datasets, calculation codes and evaluation results 
 
 ## Presentation of different simulated data scenarios
 
+- Parameters **nstudy**, **vratio**, **errdist** and **nrep** have common values for all 5 scenarios.
+- **nsim** parameter has the same value for all datasets except the second. 
 
 ### Dataset 1
 
