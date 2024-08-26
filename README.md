@@ -10,7 +10,7 @@ The folder **datasets_phase2.zip** contains 5 folders **dataset1** to **dataset5
 
 -   **Dataset 2 (Linear)** : $\text{logit}(\mathbb{P}(Y = 1)) =  -5.78 + 0.545 X$, where $X \sim \mathcal{N}(3.29, 0.24^2)$.
 
--   **Dataset 3 (Threshold with change-point below median and linear increase)** : $\text{logit}(\mathbb{P}(Y = 1)) =  -2.2 + 0.0135 T (X-90)$, where $T(W) =  W \mathbf{1}_{\{W \ge 0\}}$ and $X \sim N(100,  19.4^2)$.
+-   **Dataset 3 (Threshold with change-point below median and linear increase)** : $\text{logit}(\mathbb{P}(Y = 1)) =  -2.2 + 0.0135 T (X-90)$, where $T(W) =  W \mathbf{1}_{\{W \ge 0\}}$ and $X \sim \mathcal{N}(100,  19.4^2)$.
 
 -   **Dataset 4 (Threshold with change-point above median and exponential increase)** : $\text{logit}(\mathbb{P}(Y = 1)) =  -3.2 + e^{0.02 T(X-120)}$, where $T(W) =  W \mathbf{1}_{\{W \ge 0\}}$ and $\ln(X) \sim \mathcal{N}(4.5,  23^2)$.
 
