@@ -19,6 +19,13 @@ $\text{logit}\big(\mathbb P(Y = 1)\big) =  -2.2 + 0.0135 T \big(X-90\big)$, wher
 $\text{logit}\big(\mathbb P(Y = 1)\big) =  -3.2 + e^{0.02 T(X-120)}$, where $T(W) =  W \mathbf{1}_{\{W \ge 0\}}$  and $\ln(X) \sim \mathcal{N}\big(4.5,  23^2\big)$.
 
 - **Dataset 5 (Saturation)** : $\text{logit}\big(\mathbb P(Y = 1)\big) = \ln\big(\frac{3}{7} X^6 + \frac{1}{19} 50^6 \big) – \ln\big(50^6 + X^6\big)$, where $X \sim \text{Unif}(30,80)$.
+
+## Codes 
+
+There's a folder starting with **R_codes...** that corresponds to each team. In this folder, you'll have a main function declared in a script that performs the estimation for a single dataset, and a script ending with fullrun that executes the code on all $75  = 5 \times 15$ datasets in parallel. Please note that there is a parameter that allows you to reserve the number of cores to be used. Parallelization is adapted to Linux and MacOS servers and will not work under Windows. 
+
+Translated with DeepL.com (free version)
+
    
 
 ## Tables of datasets simulation parameters
