@@ -31,8 +31,8 @@ Here are the various abbreviations that can be found in the different files.
 - **bs** : B-spline 
 - **mi** : Multiple imputation 
 - **rc** : Regression calibration 
-- **ps** :
-- **relm** :  
+- **ps** : Penalized spline
+- **reml** : Restricted maximum likelihood 
 -  skwn_"a given bayes method"_1 or bay.mlogit = Bayes logit of posterior mean on P(Y=1) scale
 -  skwn_"a given bayes method"_2 or bay.logitm = Bayes posterior mean on logit(P(Y=1)) scale
 
