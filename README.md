@@ -24,12 +24,14 @@ $\text{logit}\big(\mathbb P(Y = 1)\big) =  -3.2 + e^{0.02 T(X-120)}$, where $T(W
 
 There's a folder starting with **R_codes...** that corresponds to each team. In this folder, you'll have a main function declared in a script that performs the estimation for a single dataset, and a script ending with fullrun that executes the code on all $75  = 5 \times 15$ datasets in parallel. Please note that there is a parameter that allows you to reserve the number of cores to be used. Parallelization is adapted to Linux and MacOS servers and will not work under Windows. 
 
-Translated with DeepL.com (free version)
+## Results and figures :
 
+For each team, there is a folder starting with **results....**, which contains 5 folders **res_dataset1_figures to res_dataset5_figures**. Each folder contains a comparison of the functions estimated by the team's methods with the true function for the 15 datasets. The **comparison_scripts_AllTeams.zip** folder contains all the scripts used to draw the different figures.
    
 
 ## Tables of datasets simulation parameters
 
+- **nstudy** = sample size of main study; **vratio** = ratio of variance of measurement error to variance of X; **errdist** 0=normal, 1=shifted-gamma; **nrep** = sample size of replication sub-study.
 - Parameters **nstudy**, **vratio**, **errdist** and **nrep** have common values for all 5 scenarios.
 - **nsim** parameter has the same value for all datasets except **Dataset 2**. 
 
