@@ -5,7 +5,7 @@ This repository presents the datasets, calculation codes and evaluation results 
 
 ## Presentation of different simulated data scenarios
 
-The folder **datasets_phase2.zip** contains 5 folders **dataset1** to **dataset5** corresponding to **5** simulation scenarios and the script to generate them. Each **dataset1** to **dataset5** folder contains **15** datasets corresponding to **15** different combinations of parameters, as shown in the tables below. 
+The folder **datasets_phase2.zip** contains 5 folders **dataset1** to **dataset5** corresponding to **5** simulation scenarios and the script to generate them. Each **dataset1** to **dataset5** folder contains **15** datasets corresponding to **15** different combinations of parameters, as shown in the the section **Tables of datasets simulation parameters** below. 
 
 
 - **Dataset 1 (J-shape)** : $\text{logit}\big(\mathbb P(Y = 1)\big) =  -2.202 + 268 e^{-0.383 X} + 0.00197 e^{0.139 X}$, where $\ln(X) \sim \mathcal{N}\big(3.3, 0.25^2\big)$.
@@ -23,6 +23,8 @@ $\text{logit}\big(\mathbb P(Y = 1)\big) =  -3.2 + e^{0.02 T(X-120)}$, where $T(W
 
 - Parameters **nstudy**, **vratio**, **errdist** and **nrep** have common values for all 5 scenarios.
 - **nsim** parameter has the same value for all datasets except **Dataset 2**. 
+
+## Tables of datasets simulation parameters
 
 ### Dataset 1
 
