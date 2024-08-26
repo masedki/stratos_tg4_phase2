@@ -6,7 +6,10 @@ This repository presents the datasets, calculation codes and evaluation results 
 
 The folder **datasets_phase2.zip** contains 5 folders **dataset1** to **dataset5** corresponding to **5** simulation scenarios and the script to generate them. Each **dataset1** to **dataset5** folder contains **15** datasets corresponding to **15** different combinations of parameters, as shown in the the section **Tables of datasets simulation parameters** below.
 
--   **Dataset 1 (J-shape)** : $\text{logit}\big(\mathbb{P}(Y = 1)\big) =  -2.202 + 268 e^{-0.383 X} + 0.00197 e^{0.139 X}$, where $\ln(X) \sim \mathcal{N}\big(3.3, 0.25^2\big)$.
+-   **Dataset 1 (J-shape)** :
+```\math
+\text{logit}\big(\mathbb{P}(Y = 1)\big) =  -2.202 + 268 e^{-0.383 X} + 0.00197 e^{0.139 X}$, where $\ln(X) \sim \mathcal{N}\big(3.3, 0.25^2\big)$.
+```
 
 -   **Dataset 2 (Linear)** : $\text{logit}\big(\mathbb{P}(Y = 1)\big) =  -5.78 + 0.545 X$, where $X \sim \mathcal{N}\big(3.29, 0.24^2\big)$.
 
