@@ -24,6 +24,18 @@ There's a folder starting with **R_codes...** that corresponds to each team. In 
 
 For each team, there is a folder starting with **results....**, which contains 5 folders **res_dataset1_figures to res_dataset5_figures**. Each folder contains a comparison of the functions estimated by the team's methods with the true function for the 15 datasets. The **comparison_scripts_AllTeams.zip** folder contains all the scripts used to draw the different figures.
 
+## A few details 
+Here are the various abbreviations that can be found in the different files. 
+
+- **fp** : Fractional polynomials
+- **bs** : B-spline 
+- **mi** : Multiple imputation 
+- **rc** : Regression calibration 
+- **ps** :
+- **relm** :  
+-  skwn_"a given bayes method"_1 or bay.mlogit = Bayes logit of posterior mean on P(Y=1) scale
+-  skwn_"a given bayes method"_2 or bay.logitm = Bayes posterior mean on logit(P(Y=1)) scale
+
 ## Tables of datasets simulation parameters
 
 -   **nstudy** = sample size of main study; **vratio** = ratio of variance of measurement error to variance of X; **errdist** 0=normal, 1=shifted-gamma; **nrep** = sample size of replication sub-study.
